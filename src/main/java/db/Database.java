@@ -44,7 +44,7 @@ public class Database {
     }
 
     private void insertDate(LocalDateTime date) {
-        try(PreparedStatement statement = connection.prepareStatement("insert into dates (date) values (?)")) {
+        try (PreparedStatement statement = connection.prepareStatement("insert into dates (date) values (?)")) {
             statement.setTimestamp(1, Timestamp.valueOf(date));
             statement.execute();
 
@@ -54,8 +54,8 @@ public class Database {
     }
     private LocalDateTime getLastDate() {
         LocalDateTime res = LocalDateTime.of(1999, 01, 01, 01, 01);
-        try(PreparedStatement statement = connection.prepareStatement("select date from dates where id=(select max(id) from dates)")) {
-            try(ResultSet resultSet = statement.executeQuery()) {
+        try (PreparedStatement statement = connection.prepareStatement("select date from dates where id=(select max(id) from dates)")) {
+            try (ResultSet resultSet = statement.executeQuery()) {
                 while (resultSet.next()) {
                     res = resultSet.getTimestamp("date").toLocalDateTime();
                 }

@@ -16,10 +16,14 @@ public class Incident {
 
     @Override
     public String toString() {
-        return "Incident{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", created=" + created.format(DateTimeFormatter.ofPattern(("dd-MM-yyyy HH:mm:ss"))) +
+        return "Incident{"
+                +
+                "id=" + id
+                +
+                ", title='" + title + '\''
+                +
+                ", created=" + created.format(DateTimeFormatter.ofPattern(("dd-MM-yyyy HH:mm:ss")))
+                +
                 '}' + System.lineSeparator();
     }
 
