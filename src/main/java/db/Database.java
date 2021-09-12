@@ -39,7 +39,6 @@ public class Database {
         if (!incidents.isEmpty()) {
             date = incidents.get(incidents.size() - 1).getCreated();
             insertDate(date);
-            System.out.println(date);
         }
         return incidents;
     }

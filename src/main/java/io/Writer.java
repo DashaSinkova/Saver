@@ -4,8 +4,6 @@ import model.Incident;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Path;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -18,7 +16,7 @@ public class Writer {
     public void writeToFile() {
         String date = incidents.get(0).getCreated().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
         String path = "C:\\Projects\\Complete\\files\\report_" + date + ".txt";
-        try(BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(path, Charset.forName("WINDOWS-1251")))) {
+        try(BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(path))) {
             writer.write("Отчет за " + date + System.lineSeparator());
             int count = 1;
             for (int i = 0; i < incidents.size(); i ++) {

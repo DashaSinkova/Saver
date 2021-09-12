@@ -33,7 +33,6 @@ public class Saver {
     public static class LoadIncidents implements Job {
         private Database database;
 
-
         @Override
         public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
             database = (Database) jobExecutionContext.getJobDetail().getJobDataMap().get("Database");
