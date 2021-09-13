@@ -39,10 +39,9 @@ public class Saver {
             List<Incident> incidents = database.findAll();
             if (!incidents.isEmpty()) {
                 Writer writer = new Writer(incidents);
-                writer.writeToFile();
-                System.out.println("Данные записаны");
+                System.out.println("Данные в базе обновлены и записаны в файл " + writer.writeToFile());
             } else {
-                System.out.println("Нет новых данных");
+                System.out.println("Нет новых обновлений в базе");
             }
         }
     }

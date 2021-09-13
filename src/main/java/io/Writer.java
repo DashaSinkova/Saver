@@ -13,7 +13,7 @@ public class Writer {
         this.incidents = incidents;
     }
 
-    public void writeToFile() {
+    public String writeToFile() {
         String date = incidents.get(0).getCreated().format(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
         String path = "C:\\Projects\\Complete\\files\\report_" + date + ".txt";
         try (BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(path))) {
@@ -26,5 +26,6 @@ public class Writer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return path;
     }
 }
