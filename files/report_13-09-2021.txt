@@ -1,11 +1,11 @@
-РћС‚С‡РµС‚ Р·Р° 13-09-2021
-1. Incident{id=3103, title='WAN Р‘Р°Р»С‚РёРєР°', created=13-09-2021 00:31:13}
-2. Incident{id=3104, title='WAN Р‘Р°Р»С‚РёРєР°', created=14-09-2021 00:31:13}
-3. Incident{id=3105, title='WAN Р‘Р°Р»С‚РёРєР°', created=15-09-2021 00:31:13}
-4. Incident{id=3106, title='WAN Р‘Р°Р»С‚РёРєР°', created=16-09-2021 00:31:13}
-5. Incident{id=3107, title='WAN Р‘Р°Р»С‚РёРєР°', created=17-09-2021 00:31:13}
-6. Incident{id=3108, title='WAN Р‘Р°Р»С‚РёРєР°', created=18-09-2021 00:31:13}
-7. Incident{id=3109, title='WAN Р‘Р°Р»С‚РёРєР°', created=19-09-2021 00:31:13}
-8. Incident{id=3110, title='WAN Р‘Р°Р»С‚РёРєР°', created=20-09-2021 00:31:13}
-9. Incident{id=3111, title='WAN Р‘Р°Р»С‚РёРєР°', created=21-09-2021 00:31:13}
-10. Incident{id=3112, title='WAN Р‘Р°Р»С‚РёРєР°', created=22-09-2021 00:31:13}
+Отчет за 13-09-2021
+1. Incident{id=3143, title='WAN Балтика', created=13-09-2021 21:59:42}
+2. Incident{id=3144, title='WAN Балтика', created=13-09-2021 22:59:42}
+3. Incident{id=3145, title='WAN Балтика', created=13-09-2021 23:59:42}
+4. Incident{id=3146, title='WAN Балтика', created=14-09-2021 00:59:42}
+5. Incident{id=3147, title='WAN Балтика', created=14-09-2021 01:59:42}
+6. Incident{id=3148, title='WAN Балтика', created=14-09-2021 02:59:42}
+7. Incident{id=3149, title='WAN Балтика', created=14-09-2021 03:59:42}
+8. Incident{id=3150, title='WAN Балтика', created=14-09-2021 04:59:42}
+9. Incident{id=3151, title='WAN Балтика', created=14-09-2021 05:59:42}
+10. Incident{id=3152, title='WAN Балтика', created=14-09-2021 06:59:42}
